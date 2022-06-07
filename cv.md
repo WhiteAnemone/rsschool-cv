@@ -63,6 +63,12 @@ function getSeason(date) {
   getSeason(date);
 ```
 
+## Projects
+
+These websites are still a work in progress:
+* Website_1: https://github.com/WhiteAnemone/Website.git
+* Website_2: https://github.com/WhiteAnemone/Website_Shelter.git
+
 ## Education and courses
 
 * ***University:*** International Academy of Business and New Technologies (MUBiNT), Bachelor's degree, Faculty of Linguistics and Translation, 2016-2021

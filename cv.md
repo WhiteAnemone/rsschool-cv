@@ -22,6 +22,47 @@ Basic knowledge of:
 * C++
 * Git
 
+## Code example
+
+### This code is from RS School course "JavaScript/Front-end 2022Q1"
+My task was to implement the function getSeason(date) that accepts Date object and returns the time of the year that matches it. Time of the year must be string.
+
+```
+function getSeason(date) {
+
+    if (date === null || date === undefined) {
+      return 'Unable to determine the time of year!';
+    };
+
+    try {
+      date.getTime();
+    } catch (error) {
+      throw new Error('Invalid date!');
+    };
+
+    if (toString.call(date) != '[object Date]') {
+      throw new Error('Invalid date!');
+    }
+
+    else {
+      let d = date.toDateString();
+      let array = d.split(" ");
+
+      if (array[1] == 'Sep' || array[1] == 'Oct' || array[1] == 'Nov') {
+        return ('autumn');
+      } else if (array[1] == 'Dec' || array[1] == 'Jan' || array[1] == 'Feb') {
+        return ('winter');
+      } else if (array[1] == 'Mar' || array[1] == 'Apr' || array[1] == 'May') {
+        return ('spring');
+      } else if (array[1] == 'Jun' || array[1] == 'Jul' || array[1] == 'Aug') {
+        return ('summer');
+      }
+    }
+  }
+
+  getSeason(date);
+```
+
 ## Education and courses
 
 * ***University:*** International Academy of Business and New Technologies (MUBiNT), Bachelor's degree, Faculty of Linguistics and Translation, 2016-2021

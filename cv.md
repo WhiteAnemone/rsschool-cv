@@ -22,3 +22,17 @@ Basic knowledge of:
 * Python
 * Git
 * SQL
+
+## Education and courses
+* ***University***: International Academy of Business and New Technologies (MUBiNT), Bachelor's degree, Faculty of Linguistics and Translation, 2016-2021
+* ***University:*** Tomsk State University of Control Systems and Radioelectronics, Informatics and Computer Engineering, since 2022
+* ***Courses***:
+    * SkillBox: ["Website layouts"](https://skillbox.ru/course/weblayout/) (in progress)
+    * Hexlet, ["preliminary course Python-developer"] (https://pre.hexlet.io/python)
+    * Hexlet, ["preliminary course Frontend-developer"] (https://pre.hexlet.io/frontend)
+    * RS School: ["JavaScript/Front-end, Strage 0, 2022Q2"](https://github.com/rolling-scopes-school/tasks/tree/master/stage0#) (finished, [certificate](https://app.rs.school/certificate/na3518vg))
+    * RS School: ["JavaScript/Front-end, Strage 0, 2022Q4"](https://github.com/rolling-scopes-school/tasks/tree/master/stage0#) (finished, [certificate](https://app.rs.school/certificate/v65rju4h))
+
+## Languages:
+Russian - native
+English - C1

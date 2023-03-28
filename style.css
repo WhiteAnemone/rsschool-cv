@@ -1,0 +1,261 @@
+@font-face {
+    font-family: 'Carattere';
+    src: local('Carattere Regular'), local('Carattere-Regular'),
+        url('assets/fonts/Carattere-Regular.woff2') format('woff2'),
+        url('assets/fonts/Carattere-Regular.woff') format('woff'),
+        url('assets/fonts/Carattere-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+  
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+	letter-spacing: 3px;
+    font-size: 20px;
+}
+
+input, button {
+    font-family: inherit;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 40px;
+	letter-spacing: 15px;
+    font-family: Carattere;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+header {
+	max-width: 1920px;
+	margin: 0 auto;
+	height: 200px;
+    padding: 0 50px;
+    align-items: center;
+	display: flex;
+	justify-content: space-around;
+    flex-direction: column;
+}
+
+.logo {
+	display: flex;
+    column-gap: 25px;
+}
+
+.logo img {
+	width: 40px;
+	height: 40px;
+}
+
+.logo span {
+	font-size: 40px;
+	text-transform: uppercase;
+	letter-spacing: 15px;
+    font-family: Carattere;
+}
+
+.nav_list {
+	display: flex;
+	column-gap: 115px;
+	list-style-type: none;
+	align-items: center;
+}
+
+.nav_list li {
+	font-size: 30px;
+	text-align: center;
+    font-family: Carattere;
+}
+
+.nav_list li a {
+    text-decoration: none;
+    color: #000;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav_list li:hover a {
+    color: red;
+    cursor: pointer;
+}
+
+.banner {
+    margin-bottom: 50px;
+}
+
+.banner_img {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.flower_rotate {
+    transform: rotate(180deg);
+}
+
+.my_photo {
+	width: 450px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.about_me, .skills_contacts_languages, .code_example, .projects, .education {
+    padding-top: 50px;
+    border-top: 5px dotted black;
+    margin-bottom: 50px;
+    /* text-align: center; */
+}
+
+.section_header {
+    font-size: 40px;
+    margin-bottom: 25px;
+    font-family: Carattere;
+}
+
+.skills_contacts_languages {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills {
+    border-right: 5px dotted black;
+}
+
+.skills_lists {
+    width: 700px;
+}
+
+.skills_lists div:first-child {
+    margin-bottom: 45px;
+}
+
+.skills ul {
+    list-style-position: inside;
+    /* text-align: left; */
+}
+
+.skills_lists_title {
+    margin-bottom: 15px;
+}
+
+.contacts {
+    margin-bottom: 56px;
+}
+
+.contacts_list {
+    list-style-position: inside;
+}
+
+.languages_list {
+    list-style-position: inside;
+}
+
+.projects p {
+    margin-bottom: 15px;
+}
+
+.projects_list {
+    list-style-position: inside;
+    line-height: 55px;
+}
+
+.link {
+    color: #000;
+    transition: all 0.2s ease-in-out;
+}
+
+.link:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.education_list {
+    list-style-position: inside;
+}
+
+.university {
+    margin-bottom: 20px;
+}
+
+.education_list span {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.courses_list {
+    line-height: 35px;
+    margin-left: 25px;
+}
+
+.certificate {
+    color: red;
+    transition: all 0.2s ease-in-out;
+}
+
+.certificate:hover {
+    cursor: pointer;
+}
+
+.footer {
+    max-width: 1500px;
+    height: 150px;
+    padding: 0 50px;
+    margin: 0 auto;
+    background-color: #EE82EE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_year {
+    font-size: 40px;
+}
+
+.link_github {
+    color: #000;
+    font-size: 40px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.link_github:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
+.logo_rsschool {
+    width: 150px;
+    transition: all 0.2s ease-in-out;
+}
+
+.logo_rsschool:hover {
+    cursor: pointer;
+    transform: scale(125%);
+}

@@ -40,7 +40,7 @@ Basic knowledge of:
     * Hexlet: ["preliminary course Frontend-developer"] (https://pre.hexlet.io/frontend)
     * RS School: ["JavaScript/Front-end, Strage 0, 2022Q2"](https://github.com/rolling-scopes-school/tasks/tree/master/stage0#) (finished, [certificate](https://app.rs.school/certificate/na3518vg))
     * RS School: ["JavaScript/Front-end, Strage 0, 2022Q4"](https://github.com/rolling-scopes-school/tasks/tree/master/stage0#) (finished, [certificate](https://app.rs.school/certificate/v65rju4h))
-* ["***Codewars profile***"]: (https://www.codewars.com/users/rsschool_d39be6c904dbf68f)
+* ***Codewars profile***: https://www.codewars.com/users/rsschool_d39be6c904dbf68f
 
 ## Code example:
 *Code example from Codewars: [Handshake problem](https://www.codewars.com/kata/5574835e3e404a0bed00001b)*
